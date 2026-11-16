@@ -1,0 +1,4 @@
+org.opentest4j.AssertionFailedError: Division by zero should throw an ArithmeticException ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3287)
+	at com.test.testsjunit.SimpleMathTest.testDivision_When_FirstNumberIsDividedByZero_ShouldThrowArithmeticException(SimpleMathTest.java:164)
+
